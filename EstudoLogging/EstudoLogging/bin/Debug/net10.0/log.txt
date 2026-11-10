@@ -1,0 +1,62 @@
+2026-11-10 19:57:19.0854 | Info | Aplicação iniciada 
+2026-11-10 19:57:19.0971 | Info | Informação de teste 
+2026-11-10 19:57:19.0971 | Warn | Aviso de teste 
+2026-11-10 19:57:19.0971 | Error | Erro de teste 
+2026-11-10 19:57:19.0971 | Info | Aplicação finalizada 
+2026-11-10 20:04:19.2127 | Info | Programa iniciado 
+2026-11-10 20:04:22.1928 | Info | Programa finalizado 
+2026-11-10 20:06:32.7366 | Info | Iniciando conversão 
+2026-11-10 20:06:32.7666 | Error | Erro ao converter o valor: abc System.FormatException: The input string 'abc' was not in a correct format.
+   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s)
+   at Program.Main(String[] args) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Program.cs:line 20
+2026-11-10 20:08:08.6557 | Info | Iniciando conversão 
+2026-11-10 20:08:08.6797 | Info | Conversão realizada com sucesso: 123 
+2026-11-10 20:28:06.9002 | Info | Tentativa de saque de 200 
+2026-11-10 20:28:06.9237 | Error | Erro ao realizar saque System.Exception: Saldo insuficiente
+   at EstudoLogging.Conta.Sacar(Decimal valor) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Conta.cs:line 24
+   at Program.Main(String[] args) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Program.cs:line 21
+2026-11-10 20:29:09.6581 | Info | Tentativa de saque de 200 
+2026-11-10 20:29:09.6788 | Error | Erro ao realizar saque System.Exception: Saldo insuficiente
+   at EstudoLogging.Conta.Sacar(Decimal valor) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Conta.cs:line 24
+   at Program.Main(String[] args) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Program.cs:line 21
+2026-11-10 20:29:33.2760 | Info | Tentativa de saque de 50 
+2026-11-10 20:29:33.2972 | Info | Saque realizado com sucesso 
+2026-11-10 20:30:53.7885 | Info | Conta criada com saldo de 100 
+2026-11-10 20:30:53.8144 | Warn | Tentativa de saque com valor inválido: -50 
+2026-11-10 20:30:53.8144 | Info | Tentativa de saque de 200 
+2026-11-10 20:30:53.8144 | Error | Erro ao realizar saque System.Exception: Saldo insuficiente
+   at EstudoLogging.Conta.Sacar(Decimal valor) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Conta.cs:line 24
+   at Program.Main(String[] args) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Program.cs:line 32
+2026-11-10 20:31:56.1454 | Info | Conta criada com saldo de 100 
+2026-11-10 20:31:56.1662 | Warn | Tentativa de saque com valor inválido: -500 
+2026-11-10 20:31:56.1714 | Info | Tentativa de saque de 500 
+2026-11-10 20:31:56.1714 | Error | Erro ao realizar saque System.Exception: Saldo insuficiente
+   at EstudoLogging.Conta.Sacar(Decimal valor) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Conta.cs:line 24
+   at Program.Main(String[] args) in C:\Users\alunolab\Desktop\tralhas\EstudoLogging\EstudoLogging\Program.cs:line 32
+2026-11-10 20:34:08.1198 | Info | Iniciando depósito de 200 
+2026-11-10 20:34:08.1307 | Info | Depósito realizado com sucesso 
+2026-11-10 20:34:08.1307 | Info | Iniciando saque de 100 
+2026-11-10 20:34:08.1307 | Info | Saque realizado com sucesso 
+2026-11-10 20:34:08.1307 | Info | Iniciando transferência de 300 
+2026-11-10 20:34:08.1307 | Info | Transferência realizada com sucesso 
+2026-11-10 20:34:08.1307 | Info | Saldo final da conta 1: 800 
+2026-11-10 20:34:08.1494 | Info | Saldo final da conta 2: 800 
+2026-11-10 20:36:49.7362 | INFO | Iniciando depósito de 200 | 
+2026-11-10 20:36:49.7458 | INFO | Depósito realizado com sucesso | 
+2026-11-10 20:36:49.7458 | INFO | Iniciando saque de 100 | 
+2026-11-10 20:36:49.7458 | INFO | Saque realizado com sucesso | 
+2026-11-10 20:36:49.7458 | INFO | Iniciando transferência de 300 | 
+2026-11-10 20:36:49.7458 | INFO | Transferência realizada com sucesso | 
+2026-11-10 20:36:49.7458 | INFO | Saldo final da conta 1: 800 | 
+2026-11-10 20:36:49.7633 | INFO | Saldo final da conta 2: 800 | 
+2026-11-10 20:38:53.6099 | INFO | Aplicação iniciada | 
+2026-11-10 20:38:53.6195 | INFO | Iniciando depósito de 200 | 
+2026-11-10 20:38:53.6195 | INFO | Depósito realizado com sucesso | 
+2026-11-10 20:38:53.6195 | INFO | Iniciando saque de 100 | 
+2026-11-10 20:38:53.6195 | INFO | Saque realizado com sucesso | 
+2026-11-10 20:38:53.6195 | INFO | Iniciando transferência de 300 | 
+2026-11-10 20:38:53.6195 | INFO | Transferência realizada com sucesso | 
+2026-11-10 20:38:53.6195 | INFO | Saldo final da conta 1: 800 | 
+2026-11-10 20:38:53.6372 | INFO | Saldo final da conta 2: 800 | 
+2026-11-10 20:38:53.6372 | INFO | Aplicação finalizada | 
